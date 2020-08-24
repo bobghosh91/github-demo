@@ -1,0 +1,39 @@
+6
+19
+19
+Olivia Smith
+July 23rd, 2019
+GIT
+GIT Push and Pull
+Learn how to perform Git PUSH and PULL requests through GitHub Desktop and the Command-Line.
+You'll be using GitHub for this tutorial as it is widely used, however, Bitbucket, Gitlab, etc. are also popular, but Developers, Data Scientists, and Data Analysts mostly use the GitHub to PUSH and do PULL Request.
+
+GIT PUSH
+Using Command line to PUSH to GitHub.
+Using GitHub Desktop to PUSH to your local content to GitHub.
+PULL Request
+PULL Request through Command Line.
+PULL Request through GitHub Desktop.
+You can easily follow along with all of the materials in the tutorial, even if you are a beginner. However, if you don't have any concept about Git, then have a look at Git Tutorial for Beginners: Command-Line Fundamentals and set up your environment by using GIT SETUP: The Definitive Guide.
+
+You do need to have a GitHub account. If you don't, you can create one here.
+
+Git PUSH
+The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. The command used for pushing to GitHub is given below.
+git push 'remote_name' 'branch_name'
+In this tutorial, you'll be looking two different ways to PUSH to GitHub.
+
+Using Command line to PUSH to GitHub
+1. Creating a new repository.
+
+You need to create a new repository and click on the plus sign.
+Fill up all the required details, i.e., repository name, description and also make the repository public this time as it is free.
+
+
+2. Open your Git Bash.
+
+Git Bash can be downloaded in here, and it is a shell used to interface with the operating system which follows the UNIX command.
+3. Create your local project in your desktop directed towards a current working directory.
+
+pwd stands for 'print working directory', which is used to print the current directory.
+Move to the specific path in your local computer by cd 'path_name'. The cd commands stand for 'change directory' and it is used to change to the working directory in your operating system, and to locate your file, 'path_name', i.e.,
